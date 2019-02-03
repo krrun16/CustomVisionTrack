@@ -15,7 +15,7 @@ using Plugin.TextToSpeech;
 
 namespace CustomVision
 {
-	[Activity(Label = "@string/app_name", MainLauncher = true, Icon = "@mipmap/icon", Theme = "@style/MyTheme")]
+	[Activity(Label = "@string/app_name", MainLauncher = false, Icon = "@mipmap/icon", Theme = "@style/MyTheme")]
 
     public class MainActivity : AppCompatActivity
     {
